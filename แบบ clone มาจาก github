@@ -9,3 +9,24 @@
    git add แบบ clone มาจาก github
    git commit -m "เพิ่มหัวข้อที่ 3 local"
    git push
+   
+
+
+4. ข้อมูลที่เพิ่มจาก Local ได้ อัพเดตขึ้นมาที่ remote แล้ว ผ่านคำสั่งตามด้านบน โดยมี result ตามด้านล่าง
+
+$git add "แบบ clone มาจาก github"
+$git commit -m "เพิ่มหัวข้อที่ 3 local"
+[main 638912c] เพิ่มหัวข้อที่ 3 local
+$git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 892 bytes | 892.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/issarapong/git-cli-note
+   4c007d8..638912c  main -> main
+   
+5.ปัจจุบันใน Local จะไม่มี ข้อมูลตามในหัวข้อทีื 4 และหัวข้อที่ 5 ที่กำลังเขียนอยู๋นี้เพราะ ได้ทำการ edit file โดยตรงจาก Remote Server 
+  กรณีนี้จะทำให้ File ทั้งสอง ไม่เหมือนกัน หากเราทำการอัพเดตจาก Local จะพบว่า
