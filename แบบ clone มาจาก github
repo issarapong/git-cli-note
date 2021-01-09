@@ -9,3 +9,7 @@
    git add แบบ clone มาจาก github
    git commit -m "เพิ่มหัวข้อที่ 3 local"
    git push
+
+
+
+   ทดสอบอัพเดตจาก local หลัง มีการอัพเดตโดยตรงจาก Remote server
