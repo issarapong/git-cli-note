@@ -4,3 +4,8 @@
  1. ใช้ git clone https://github.com/issarapong/git-cli-note ลงมาที่เครื่อง local // 1 Repo= 1 folder project เท่านั้น เพราะฉะนั้น check part ให้ดีๆ ก่อน clone ลงไป
  2. ทดสอบการ clone local
       
+3. ตอนนี้ Project muj clone ลงมาจาก repo ลงมาอยู๋ที่เครื่องแล้ว พร้อม Folder  .git ( Profile ของ git project นั้นๆ) ได้ทำการเปิดไฟล์ "แบบ clone มาจาก github" 
+   แล้วเพิ่ม Messagge ในหัวไข้อที่ 3 (หัวข้อนี้) ใน local Project แล้ว save จะพบว่า git remote server ยังไม่มีการเปลี่ยนแปลงไดๆ จนกระทั่งทำคำสั่งตามด้านล่างเพื่ออัพเดตขึ้น git remote server
+   git add แบบ clone มาจาก github
+   git commit -m "เพิ่มหัวข้อที่ 3 local"
+   git push
