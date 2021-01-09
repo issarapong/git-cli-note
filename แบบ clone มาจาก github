@@ -1,4 +1,5 @@
 #แบบ clone มาจาก github
  หมายเหตุ : กรณีแบบนี้ไม่ต้องทำ git init เพราะ github ทำให้แล้วตอนกดสร้าง
  
- 1. ใช้ git clone https://github.com/issarapong/git-cli-note ลงมาที่เครื่อง local
+ 1. ใช้ git clone https://github.com/issarapong/git-cli-note ลงมาที่เครื่อง local // 1 Repo= 1 folder project เท่านั้น เพราะฉะนั้น check part ให้ดีๆ ก่อน clone ลงไป
+      
