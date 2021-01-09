@@ -11,5 +11,5 @@
    git push
 
 
-
+ ข้อมูลใน local หลังจากทดสอบ pull https://github.com/issarapong/git-cli-note/commit/bb6ecf41c4e469c87de471636faf89bb436dc6ed ลงมา แต่ใช้  accept current แทน (on rm)
    ทดสอบอัพเดตจาก local หลัง มีการอัพเดตโดยตรงจาก Remote server
