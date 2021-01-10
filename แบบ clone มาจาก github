@@ -32,5 +32,18 @@ To https://github.com/issarapong/git-cli-note
   กรณีนี้จะทำให้ File ทั้งสอง ไม่เหมือนกัน หากเราทำการอัพเดตจาก Local จะพบว่าจะมีการบังคับให้ Pull ลงมาก่อนเพื่อตรวจสอบ ว่าไฟล์ที่อยู๋ใน Master BranchUpdate ไปหรือยัง
   ซึ้งหากมีการอัพเดแล้ว git ก็จะทำการดึงลงมาสอบถาม ว่าจะใช้การเปลี่ยนแลงจาก RM srv หรือ Local Server หรือรวมทั่ง2ที่ (มีปุ่มให้กดใน VS Code ) ให้ทำการเลือกแล้วทำการ push ปกติ
   
-  6.ใน VS code จะมีปัญหาเพิ่ม commenตอน 
+  6.ใน VS code จะมีปัญหาเพิ่ม comment ตอน ทำการ commit เพราะเมนูจะเป็น commit all ทำให้ comment ใน commit นั้นๆ effect กับไฟลล์ทั้งหมด แก้ไขได้โดยเมื่อเราแก้ไขไฟลล์ไดเสร็จแล้วให้ใช้คำสั่งแยกไป
+   ตั้งแต่แรก ตามตัวอย่าง
   
+  
+  git add file1.txt
+  git commit -m "แก้ไข file1.txt"
+  
+  /////ยังไม่ push/////
+  
+  git add file2.txt
+  git commit -m "แก้ไข file2.txt"
+   
+  git push
+  
+ //การใช้คำสั่ง git push นั้นเหมือน ปุ่ม push ใน vscode 
